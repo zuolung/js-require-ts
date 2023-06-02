@@ -1,0 +1,17 @@
+{
+  "name": "js-require-ts",
+  "version": "0.0.1",
+  "description": "require a ts file in js file",
+  "main": "./index.js",
+  "scripts": {
+    "test": "node ./test.js"
+  },
+  "keywords": [
+    "require",
+    "ts",
+    "typescript",
+    "js"
+  ],
+  "author": "",
+  "license": "ISC"
+}
