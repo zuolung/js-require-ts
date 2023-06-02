@@ -10,10 +10,12 @@ npm i js-reuqire-ts
 
 ### usage
 
+ts file path must be absolute
+
 ```js
 const requireTs = require('js-reuqire-ts')
 
-requireTs('./xx/menu.ts').then((res) => {
+requireTs('/xx/menu.ts').then((res) => {
   console.info(res)
 })
 ```
@@ -25,7 +27,7 @@ if you want use yourself ts config, you can set the Second parameter
 ```js
 const requireTs = require('js-reuqire-ts')
 
-requireTs('./xx/menu.ts', './typescript.json').then((res) => {
+requireTs('/xx/menu.ts', '/xxx/typescript.json').then((res) => {
   console.info(res)
 })
 ```
