@@ -12,6 +12,13 @@
     "typescript",
     "js"
   ],
+  "repository": {
+    "type": "https",
+    "url": "https://github.com/zuolung/js-require-ts"
+  },
+  "bugs": {
+    "url": "https://github.com/zuolung/js-require-ts/issues/new"
+  },
   "author": "",
   "license": "ISC"
 }
